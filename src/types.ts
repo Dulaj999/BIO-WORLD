@@ -1,0 +1,33 @@
+export type Screen = 
+  | 'ENTRY' 
+  | 'MARKET' 
+  | 'NEXUS' 
+  | 'PORTAL' 
+  | 'PROFILE' 
+  | 'REGISTRATION' 
+  | 'PROFESSIONAL_REGISTRATION'
+  | 'REGISTRATION_STATUS'
+  | 'TRAINING'
+  | 'ASSESSMENT'
+  | 'CERTIFICATION_SUCCESS'
+  | 'DIGITAL_CREDENTIALS'
+  | 'WORKER_ASSIGNMENTS'
+  | 'BIOSAFE_MONITOR'
+  | 'INCIDENT_LOG'
+  | 'INCIDENT_REPORT'
+  | 'INVESTOR_DECK'
+  | 'INVESTOR_FINANCIALS'
+  | 'SAFETY_ORACLE'
+  | 'SOLAR_DETAIL' 
+  | 'EV_PERFORMANCE' 
+  | 'MAP' 
+  | 'PARTNER_PORTAL' 
+  | 'AI_PULSE' 
+  | 'RANKINGS'
+  | 'SCIENCE_FEED';
+
+export interface NavItem {
+  id: Screen;
+  label: string;
+  icon: string;
+}

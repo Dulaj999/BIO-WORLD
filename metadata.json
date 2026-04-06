@@ -1,0 +1,7 @@
+{
+  "name": "BIO WORLD",
+  "description": "A global, self-sustaining ecosystem where synthetic intelligence breathes through biological frameworks. Featuring AI-driven safety monitoring, investor relations, and real-time workforce tracking.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
